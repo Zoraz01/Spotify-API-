@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 # spotipy is required for this application to work
 
 # client id and secret id that corresponds with your account can be acquired from Spotify API website
-cid = '924d5bddc07f4588a2bd13c7fef258f9'
-secret = 'ae858f86e4ae4ee489652037637a23c5'
+cid = 'Enter your own client ID here'
+secret = 'Enter your own secret ID here'
 scope = "user-read-currently-playing"
 
 def get_current_song():
