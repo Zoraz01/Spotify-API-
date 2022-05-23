@@ -5,8 +5,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import urllib.request
 
-cid = '924d5bddc07f4588a2bd13c7fef258f9'
-secret = 'ae858f86e4ae4ee489652037637a23c5'
+cid = 'Enter your own client id here'
+secret = 'enter your own client id here'
 scope = "user-read-currently-playing"
 def get_current_song():
     ##client_credentials_manager = SpotifyClientCredentials(client_id= cid,client_secret=secret)
