@@ -1,8 +1,8 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-cid = '924d5bddc07f4588a2bd13c7fef258f9'
-secret = 'ae858f86e4ae4ee489652037637a23c5'
+cid = 'Enter your own client id here'
+secret = 'Enter your own secret id here'
 
 travis_Scott = 'spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY'
 client_credentials_manager = SpotifyClientCredentials(client_id= cid,client_secret=secret)
